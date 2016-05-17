@@ -3,6 +3,10 @@ opengl8thfirstexample
 
 OpenGL Redbook 8th Edition First Example
 
+I've had a couple people state that this program no longer produces a triangle. I checked that it still builds on my Mac Mini, but it doesn't have a real card. My machine with a GeForce GT 610 couldn't run it after trying for a few hours with a fresh Ubuntu after the insane loading of the related libraries and tweaking to conform to the current libraries. Sadly, I'm the proud owner of a black box again when executing the program. I was going to delete this repo, but since it worked at one time there might be a configuration that works for somebody. Setting this up has not been a good experience on Linux.
+
+Find a better example unless you want to be aggravated. You've been warned.
+
 Compile with
 ============
 g++ -g -o tri triangles.cpp LoadShader.cpp -lglut -lGLEW -lGLU -lGL -lX11 -lm
